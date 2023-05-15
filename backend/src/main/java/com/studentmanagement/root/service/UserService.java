@@ -36,7 +36,7 @@ public class UserService {
 	        updatedUser.setEmail(user.getEmail());
 	        updatedUser.setPhone(user.getPhone());
 	        updatedUser.setPassword(user.getPassword());
-	        updatedUser.setIsLandlord(user.getIsLandlord());
+	        updatedUser.setRoles(user.getRoles());
 	        updatedUser.setRoom(user.getRoom());
 	        return userRepo.save(updatedUser);
 	    }
